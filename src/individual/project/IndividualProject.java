@@ -683,7 +683,7 @@ public class IndividualProject {
     public static int getValidMenuChoice(Scanner s,int l,int u){
         int choice;
         do{
-            System.out.println("Please choose a number 0-9");
+            System.out.println("Please choose a valid number");
             while (!s.hasNextInt()){
                 System.out.println("Please enter a number");
                 s.nextLine();
